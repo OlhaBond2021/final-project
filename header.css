@@ -1,0 +1,114 @@
+@font-face {
+  src: url("./fonts/TTNorms/TTNorms-Medium.woff");
+  font-family: "TTNorms";
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  src: url("./fonts/TTNorms/TTNorms-Regular.woff");
+  font-family: "TTNorms";
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  src: url("./fonts/TTNorms/TTNorms-Bold.woff");
+  font-family: "TTNorms";
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "TTNorms", sans-serif;
+  color: #ffffff;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.base__container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 63px;
+}
+.header__logo__link {
+  width: 100%;
+  max-width: 155px;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  max-width: 564px;
+}
+.header__languages__and__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 564px;
+}
+.header__languages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 425px;
+}
+.header__language {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+}
+.header__active__languages {
+  padding: 5px;
+  background: #F0145A;
+  border-radius: 8px;
+}
+.header__language:hover {
+  padding: 5px;
+  background: #EDEDF7;
+  border-radius: 8px;
+  color: #B3B3BA;
+}
+.header__address {
+  font-size: 16px;
+  line-height: 19px;
+}
+.header__telephone {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+.header__link {
+  font-size: 18px;
+  line-height: 21px;
+}
+.header__link:hover {
+  color: #F0145A;
+}
+.header__facebook svg {
+  fill: #FFFFFF;
+}
+.header__facebook:hover svg {
+  fill: #24A3FF;
+}
+
+/*# sourceMappingURL=header.css.map */

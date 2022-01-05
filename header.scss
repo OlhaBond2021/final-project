@@ -1,0 +1,142 @@
+@import "base";
+
+@mixin flex__column() {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .header__hamburger__box {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px 7px;
+      width: 32px;
+      height: 32px;
+
+      &:active {
+        background: #EDEDF7;
+        border-radius: 12px;
+      }
+
+      .header__hamburger {
+        display: block;
+        border: 1px solid #323264;
+        background-color: #323264;
+        width: 18px;
+        position: relative;
+
+        &::before, &::after {
+          content: '';
+          border: 1px solid #323264;
+          background-color: #323264;
+          width: 16px;
+          position: absolute;
+          left: -1px;
+        }
+
+        &::before {
+          top: 6px;
+        }
+
+        &::after {
+          bottom: 6px;
+        }
+      }
+    }
+
+    &__logo__link {
+      width: 100%;
+      max-width: 155px;
+    }
+  }
+
+  &__content {
+    @include flex__column();
+    align-items: end;
+    width: 100%;
+    max-width: 564px;
+  }
+
+  &__languages__and__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 564px;
+  }
+
+  &__languages {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 425px;
+  }
+
+  &__language {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+  }
+
+  &__active__languages {
+    padding: 5px;
+    background: #F0145A;
+    border-radius: 8px;
+  }
+
+  &__language:hover {
+    padding: 5px;
+    background: #EDEDF7;
+    border-radius: 8px;
+    color: #B3B3BA;
+  }
+
+  &__address {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__telephone {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__link {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  &__link:hover {
+    color: #F0145A;
+  }
+
+  &__facebook {
+    svg {
+      fill: #FFFFFF;
+    }
+
+    &:hover {
+      svg {
+        fill: #24A3FF;
+      }
+    }
+  }
+}

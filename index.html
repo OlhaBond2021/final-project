@@ -1,13 +1,729 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <title>Homepage</title>
 </head>
 <body>
-<h1>test</h1>
+<section class="header__and__splash__section">
+    <div class="base__container">
+        <header class="header">
+            <div class="header__logo__wrapper">
+                <a class="header__logo__link" href="index.html">
+                    <picture>
+                        <source srcset="images/homepage/header-mob-logo-min.svg"
+                                media="screen and (max-width: 1024px)">
+                        <img class="header__logo" src="./images/homepage/header-main-logo.svg" alt="logo">
+                    </picture>
+                </a>
+                <div class="header__hamburger__box">
+                    <span class="header__hamburger"></span>
+                </div>
+            </div>
+            <div class="header__content">
+                <div class="header__languages__and__contacts">
+                    <div class="header__languages">
+                        <a class="header__language header__active__languages" href="#" hreflang="uk">УК</a>
+                        <a class="header__language" href="#" hreflang="ru">РУ</a>
+                        <a class="header__language" href="#" hreflang="en">EN</a>
+                    </div>
+                    <img class="header__dot" src="images/homepage/header-dot.svg" alt="dot">
+                    <a class="header__address" href="#">Одеса, Адміральський пр., 3</a>
+                    <img class="header__dot" src="images/homepage/header-dot.svg" alt="dot">
+                    <a class="header__telephone" href="tel: +380503901591">+38 (050) 390 15 91</a>
+                    <img class="header__dot" src="images/homepage/header-dot.svg" alt="dot">
+                    <a class="header__facebook" href="https://uk-ua.facebook.com/">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_26339_3485)">
+                                <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_26339_3485">
+                                    <rect width="24" height="24" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <a class="header__link " href="about.html">про нас</a>
+                    <a class="header__link" href="#">послуги</a>
+                    <a class="header__link" href="team.html">команда</a>
+                    <a class="header__link" href="#">публікації</a>
+                    <a class="header__link" href="contact.html">контакти</a>
+                </nav>
+            </div>
+        </header>
+        <div class="splash">
+            <picture class="splash__pattern">
+                <source srcset="images/homepage/splash-pattern.png">
+                <img class="splash__pattern" src="images/homepage/splash-pattern.png" alt="pattern">
+            </picture>
+            <picture class="splash__symbol">
+                <source srcset="images/homepage/splash-symbol-Long-leg.png">
+                <img class="splash__symbol" src="images/homepage/splash-symbol-Long-leg.png" alt="symbol">
+            </picture>
+            <p class="splash__text">системний адміністратор правових рішень</p>
+        </div>
+    </div>
+    <div class="shade1">
+        <a class="scroll__down__link" href="#text__under__shade1">
+            <img class="scroll__down" src="images/homepage/shade1-scroll-down.svg" alt="scroll__down">
+        </a>
+        <a class="scroll__down__link2" href="#text__under__slider__shade1">
+            <img class="scroll__down" src="images/homepage/shade1-scroll-down.svg" alt="scroll__down">
+        </a>
+    </div>
+    <div class="shade2"></div>
+</section>
+<section class="experience__services__section">
+    <div class="base__container">
+        <div class="experience">
+            <div class="experience__box">
+                <div class="experience__titles">
+                    <div class="experience__title__border">
+                        <h3 class="experience__title experience__active" id="text__under__shade1">Послідовні</h3>
+                        <div class="experience__border experience__active"></div>
+                    </div>
+                    <div class="experience__title__border">
+                        <h3 class="experience__title">Клієнтоорієнтовані</h3>
+                        <div class="experience__border"></div>
+                    </div>
+                    <div class="experience__title__border">
+                        <h3 class="experience__title">Інноваційні</h3>
+                        <div class="experience__border"></div>
+                    </div>
+                    <div class="experience__title__border">
+                        <h3 class="experience__title">Бізнес-орієнтовані
+                            юристи</h3>
+                        <div class="experience__border experience__border1"></div>
+                    </div>
+                </div>
+                <div class="experience__introduction">
+                    <h5 class="experience__introduction__title">Перевертаємо уявлення про юридичні послуги</h5>
+                    <p class="experience__introduction__text">
+                        Консолідуючи багаторічний досвід і практику, юристи
+                        компанії супроводжують складні проєкти і досягають прийняття ряду важливих для галузі рішень.
+                        Багато з них формують практику застосування морського права в Україні.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="experience__slider__mob">
+            <div class="experience__slider">
+                <div class="experience__slider__box">
+                    <h3 class="experience__slider__title experience__slider__active"
+                        id="text__under__slider__shade1">Послідовні</h3>
+                </div>
+                <div class="experience__slider__introduction">
+                    <h5 class="experience__slider__introduction__title">Перевертаємо уявлення про юридичні послуги</h5>
+                    <p class="experience__slider__introduction__text">
+                        Консолідуючи багаторічний досвід і практику, юристи
+                        компанії супроводжують складні проєкти і досягають прийняття ряду важливих для галузі рішень.
+                        Багато з них формують практику застосування морського права в Україні.
+                    </p>
+                </div>
+            </div>
+            <div class="experience__slider">
+                <div class="experience__slider__box">
+                    <h3 class="experience__slider__title experience__slider__active">Послідовні</h3>
+                </div>
+                <div class="experience__slider__introduction">
+                    <h5 class="experience__slider__introduction__title">Перевертаємо уявлення про юридичні послуги</h5>
+                    <p class="experience__slider__introduction__text">
+                        Консолідуючи багаторічний досвід і практику, юристи
+                        компанії супроводжують складні проєкти і досягають прийняття ряду важливих для галузі рішень.
+                        Багато з них формують практику застосування морського права в Україні.
+                    </p>
+                </div>
+            </div>
+            <div class="experience__slider">
+                <div class="experience__slider__box">
+                    <h3 class="experience__slider__title experience__slider__active">Послідовні</h3>
+                </div>
+                <div class="experience__slider__introduction">
+                    <h5 class="experience__slider__introduction__title">Перевертаємо уявлення про юридичні послуги</h5>
+                    <p class="experience__slider__introduction__text">
+                        Консолідуючи багаторічний досвід і практику, юристи
+                        компанії супроводжують складні проєкти і досягають прийняття ряду важливих для галузі рішень.
+                        Багато з них формують практику застосування морського права в Україні.
+                    </p>
+                </div>
+            </div>
+            <div class="experience__slider">
+                <div class="experience__slider__box">
+                    <h3 class="experience__slider__title experience__slider__active">Послідовні</h3>
+                </div>
+                <div class="experience__slider__introduction">
+                    <h5 class="experience__slider__introduction__title">Перевертаємо уявлення про юридичні послуги</h5>
+                    <p class="experience__slider__introduction__text">
+                        Консолідуючи багаторічний досвід і практику, юристи
+                        компанії супроводжують складні проєкти і досягають прийняття ряду важливих для галузі рішень.
+                        Багато з них формують практику застосування морського права в Україні.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="prev-btn arrow-btn"></div>
+        <div class="next-btn arrow-btn"></div>
+        <div class="services">
+            <a class="services__first__link" href="#">
+                послуги
+                <img class="services__link__arrow" src="images/homepage/services/services-switch-over.svg"
+                     alt="switch-over">
+            </a>
+            <h3 class="services__title">Що ми вміємо робити краще за інших?</h3>
+            <div class="services__grid">
+                <div class="services__grid__item">
+                    <div class="services__img__and__link">
+                        <picture>
+                            <source srcset="images/homepage/services/services-mob-icon1.svg"
+                                    media="screen and (max-width: 426px)">
+                            <img class="services__icon" src="images/homepage/services/services-icon1.svg" alt="icon">
+                        </picture>
+                        <a class="services__link" href="#">IT та електронна комерція</a>
+                    </div>
+                    <p class="services__text">Нескінчений потік договорів, податкові питання, трудові відносини,
+                        корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так
+                        вже й багато, щоб наймати інхауз-юриста.</p>
+                </div>
+                <div class="services__grid__item">
+                    <div class="services__img__and__link">
+                        <picture>
+                            <source srcset="images/homepage/services/services-mob-icon2.svg"
+                                    media="screen and (max-width: 426px)">
+                            <img class="services__icon" src="images/homepage/services/services-icon2.svg" alt="icon">
+                        </picture>
+                        <a class="services__link" href="#">Комплексний щоденний
+                            юридичний супровід</a>
+                    </div>
+                    <p class="services__text">До того ж, з часом робота стане однотипною і нецікавою для штатного
+                        юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого кандидата з досвідом у
+                        сфері інформаційних технологій.</p>
+                </div>
+                <div class="services__grid__item">
+                    <div class="services__img__and__link">
+                        <picture>
+                            <source srcset="images/homepage/services/services-mob-icon3.svg"
+                                    media="screen and (max-width: 426px)">
+                            <img class="services__icon" src="images/homepage/services/services-icon3.svg" alt="icon">
+                        </picture>
+                        <a class="services__link" href="#">Структуризація корпоративних відносин</a>
+                    </div>
+                    <p class="services__text">Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу
+                        команду, які впишуться в повсякденне життя вашої компанії.</p>
+                </div>
+                <div class="services__grid__item">
+                    <div class="services__img__and__link">
+                        <picture>
+                            <source srcset="images/homepage/services/services-mob-icon4.svg"
+                                    media="screen and (max-width: 426px)">
+                            <img class="services__icon" src="images/homepage/services/services-icon4.svg" alt="icon">
+                        </picture>
+                        <a class="services__link" href="#">Побудовa договірних відносин</a>
+                    </div>
+                    <p class="services__text">Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний
+                        юрист. Будь-хто в компанії може впіймати його біля кавоварки і просто поговорити про поточні
+                        справи замість очікування статусу update.</p>
+                </div>
+                <div class="services__grid__item">
+                    <div class="services__img__and__link">
+                        <picture>
+                            <source srcset="images/homepage/services/services-mob-icon5.svg"
+                                    media="screen and (max-width: 426px)">
+                            <img class="services__icon" src="images/homepage/services/services-icon5.svg" alt="icon">
+                        </picture>
+                        <a class="services__link" href="#">Захист бізнесу, інтелектуальної власності</a>
+                    </div>
+                    <p class="services__text">А весь інший час він працюватиме над новими різноплановими проектами,
+                        тому вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь
+                        Axon Partners замість корпоративного юриста.</p>
+                </div>
+                <div class="services__grid__item">
+                    <div class="services__img__and__link">
+                        <picture>
+                            <source srcset="images/homepage/services/services-mob-icon6.svg"
+                                    media="screen and (max-width: 426px)">
+                            <img class="services__icon" src="images/homepage/services/services-icon6.svg" alt="icon">
+                        </picture>
+                        <a class="services__link" href="#">Судове представництво</a>
+                    </div>
+                    <p class="services__text">Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний
+                        бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="shadows__section">
+    <div class="shadow1"></div>
+    <div class="shadow2"></div>
+</section>
+<section class="slider__section">
+    <div class="base__container">
+        <div class="slider__wrapper">
+            <div class="slider">
+                <div class="slider__flex">
+                    <div class="slider__flex__wrapper">
+                        <picture>
+                            <source srcset="images/homepage/slider-big-foto.png">
+                            <img class="slider__img" src="images/homepage/slider-big-foto.png" alt="foto">
+                        </picture>
+                        <div class="slider__text__box">
+                            <a class="slider__link" href="http://localhost:63342/%D0%94%D0%97/final-project/team.html">команда
+                                <img class="slider__text__arrow"
+                                     src="images/homepage/slider-link-arrow.svg"
+                                     alt="arrow">
+                            </a>
+                            <a class="slider__title" href="#">Ми звикли брати на себе відповідальність та завжди
+                                гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                            </a>
+                            <div class="slider__box__for__mob">
+                                <picture>
+                                    <source srcset="images/homepage/slider-mob-foto.svg">
+                                    <img class="slider__img__mob" src="images/homepage/slider-mob-foto.svg" alt="foto">
+                                </picture>
+                                <div class="slider__minibox__for__mob">
+                                    <a class="slider__under__title__link__text1" href="#">Олександр Олександровський</a>
+                                    <p class="slider__under__title__text2">Керуючий партнер</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__flex">
+                    <div class="slider__flex__wrapper">
+                        <picture>
+                            <source srcset="images/homepage/slider-mob-foto.svg" media="screen and (max-width: 426px)">
+                            <img class="slider__img" src="images/homepage/slider-big-foto.png" alt="foto">
+                        </picture>
+                        <div class="slider__text__box">
+                            <a class="slider__link" href="http://localhost:63342/%D0%94%D0%97/final-project/team.html">команда
+                                <img class="slider__text__arrow"
+                                     src="images/homepage/slider-link-arrow.svg"
+                                     alt="arrow">
+                            </a>
+                            <h3 class="slider__title">Ми звикли брати на себе відповідальність та завжди гарантуємо
+                                чесну,
+                                вчасну
+                                допомогу, навіть у
+                                ситуаціях, коли більшість безсилі.</h3>
+                            <div class="slider__box__for__mob">
+                                <picture>
+                                    <source srcset="images/homepage/slider-mob-foto.svg">
+                                    <img class="slider__img__mob" src="images/homepage/slider-mob-foto.svg" alt="foto">
+                                </picture>
+                                <div class="slider__minibox__for__mob">
+                                    <p class="slider__under__title__link__text1">Олександр Олександровський</p>
+                                    <p class="slider__under__title__text2">Керуючий партнер</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__flex">
+                    <div class="slider__flex__wrapper">
+                        <picture>
+                            <source srcset="images/homepage/slider-mob-foto.svg" media="screen and (max-width: 426px)">
+                            <img class="slider__img" src="images/homepage/slider-big-foto.png" alt="foto">
+                        </picture>
+                        <div class="slider__text__box">
+                            <a class="slider__link" href="http://localhost:63342/%D0%94%D0%97/final-project/team.html">команда
+                                <img class="slider__text__arrow"
+                                     src="images/homepage/slider-link-arrow.svg"
+                                     alt="arrow">
+                            </a>
+                            <h3 class="slider__title">Ми звикли брати на себе відповідальність та завжди гарантуємо
+                                чесну,
+                                вчасну
+                                допомогу, навіть у
+                                ситуаціях, коли більшість безсилі.</h3>
+                            <div class="slider__box__for__mob">
+                                <picture>
+                                    <source srcset="images/homepage/slider-mob-foto.svg">
+                                    <img class="slider__img__mob" src="images/homepage/slider-mob-foto.svg" alt="foto">
+                                </picture>
+                                <div class="slider__minibox__for__mob">
+                                    <p class="slider__under__title__link__text1">Олександр Олександровський</p>
+                                    <p class="slider__under__title__text2">Керуючий партнер</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prev-btn arrow-btn"></div>
+            <div class="next-btn arrow-btn"></div>
+        </div>
+    </div>
+</section>
+<section class="case__section">
+    <div class="base__container">
+        <div class="case case__wrapper">
+            <div class="case__item case__item__tablet">
+                <div class="case__successful">
+                    <h6 class="case__title">Успішні кейси</h6>
+                </div>
+                <div class="case__item1 case__all__items case__item__mob case__item__tablet">
+                    <a class="case__paragraph" href="#">Супровід проекту з купівлі-продажу сільськогосподарської
+                        продукції</a>
+                    <p class="case__name">Hillel IT School</p>
+                </div>
+                <div class="case__hover">
+                    <p class="case__hover__text">Prolegals у співпраці з юристами Clyde & Co виступила юридичним
+                        консультантом відомого іноземного
+                        банку у зв'язку з фінансуванням ряду угод з купівлі-продажу сільськогосподарської продукції.
+                        Юристи компанії, серед іншого, надали банку комплексне юридичний висновок про механізм роботи
+                        застав в Україні, способи звернення стягнення на товар і пов'язаних із заставою ризиками.
+                    </p>
+                    <!--                    <img class="case__hover__arrow" src="images/team/team-open-arrow.svg" alt="arrow">-->
+                    <!--                    <img class="case__hover__arrow" src="images/team/team-open-arrow.svg" alt="arrow">-->
+                </div>
+            </div>
+            <div class="case__item2 case__all__items case__item__mob case__item__tablet">
+                <a class="case__paragraph" href="#">Підготовка комплексного юридичного висновку для європейського
+                    банку</a>
+                <p class="case__name">WannaBiz</p>
+            </div>
+            <div class="case__item3 case__all__items case__item__mob case__item__tablet">
+                <a class="case__paragraph" href="#">Супровід проекту з купівлі-продажу сільськогосподарської
+                    продукції</a>
+                <p class="case__name">tapgerine</p>
+            </div>
+            <div class="case__item4 case__all__items case__item__mob case__item__tablet">
+                <a class="case__paragraph" href="#">Представництво інтересів великого зернотрейдера в податковому
+                    спорі</a>
+                <p class="case__name">3D LOOK</p>
+            </div>
+            <div class="case__item5 case__all__items case__item__mob case__item__tablet">
+                <a class="case__paragraph" href="#">Оскарження податкових повідомлень-рішень ДФС</a>
+                <p class="case__name">adtelligent</p>
+            </div>
+            <div class="case__item6 case__all__items case__item__mob case__item__tablet">
+                <a class="case__paragraph" href="#">Супровід проекту з кредитування агротрейдерів мальтійським
+                    банком</a>
+                <p class="case__name">Clikky</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="clients__section">
+    <div class="clients__container">
+        <div class="clients clients__wrapper">
+            <h6 class="clients__title">Вже довіряють нам</h6>
+            <div class="clients__grid">
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-hillel.png" media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/hillel.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-wannabiz.png" media="screen and (max-width: 426x)">
+                        <img class="clients__img" src="images/homepage/clients/wannabiz.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-tapgerine.png"
+                                media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/tapgerine.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-3dlook.png" media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/3dlook.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-orangear.png" media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/orangear.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-adtelligent.png"
+                                media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/adtelligent.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-clickky.png" media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/clickky.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-ecoleasing.png"
+                                media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/ecoleasing.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-infatek.png" media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/infatek.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-city-park.png"
+                                media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/city-park.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-art-print-studio.png"
+                                media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/art-print-studio.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="clients__item">
+                    <picture>
+                        <source srcset="images/homepage/clients/mob-ultimate-card.png"
+                                media="screen and (max-width: 426px)">
+                        <img class="clients__img" src="images/homepage/clients/ultimate-card.png" alt="logo">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="publications__section">
+    <div class="base__container">
+        <div class="publications__wrapper">
+            <a class="publications__link" href="#">Публікації
+                <img class="publications__arrow" src="images/homepage/publications-link-arrow2.svg" alt="arrow">
+            </a>
+            <h3 class="publications__title">Нам є що розповісти</h3>
+            <div class="publications">
+                <div class="publications__card publications__card1">
+                    <div class="publication__under__title__and__data">
+                        <a class="publications__under__title__link" href="#">Валютний контроль помер, хай живе валютний
+                            контроль!</a>
+                        <p class="publications__data__text">14 червня</p>
+                    </div>
+                    <div class="publications__border__bottom"></div>
+                    <p class="publications__description">Експерти проводять конференції, круглі столи та іншого
+                        штибу заходи на тему «лібералізація валютного законодавства». Юристи-експерти-новелісти
+                        стирають пальці об «ctrl+c/ctrl+v».
+                    </p>
+                </div>
+                <div class="publications__card publications__card2">
+                    <picture>
+                        <source srcset="images/homepage/publications/mob-equity.png"
+                                media="screen and (max-width: 426px)">
+                        <img class="publications__img" src="images/homepage/publications/equity.png" alt="foto">
+                    </picture>
+                    <div class="publications__text__box">
+                        <div class="publication__under__title__and__data">
+                            <a class="publications__under__title__link" href="#">Equity associate</a>
+                            <p class="publications__data__text">22 квітня</p>
+                        </div>
+                        <div class="publications__border__bottom"></div>
+                        <p class="publications__description">На проектах я джун. При цьому я співвласник юридичної
+                            фірми. Як це відбулося. Перед вступом батьки мені казали, що якщо буду…
+                        </p>
+                    </div>
+                </div>
+                <div class="publications__card publications__card3">
+                    <picture>
+                        <source srcset="images/homepage/publications/gdpr.png">
+                        <img class="publications__img" src="images/homepage/publications/gdpr.png" alt="foto">
+                    </picture>
+                    <div class="publications__text__box">
+                        <div class="publication__under__title__and__data">
+                            <a class="publications__under__title__link" href="#">Штраф для «Корпорації добра»: що буде з
+                                Google та
+                                іншими
+                                за
+                                порушення GDPR</a>
+                            <p class="publications__data__text">29 вересня</p>
+                        </div>
+                        <div class="publications__border__bottom"></div>
+                        <p class="publications__description">І чому стягнення у 50 млн євро може стати доленосним
+                            прецедентом За матеріалами Mind.ua 21 січня Національна комісія із захисту даних.
+                        </p>
+                    </div>
+                </div>
+                <div class="publications__card publications__card4">
+                    <picture>
+                        <source srcset="images/homepage/publications/mob-will-mileniala.png"
+                                media="screen and (max-width: 426px)">
+                        <img class="publications__img" src="images/homepage/publications/will-mileniala.png" alt="foto">
+                    </picture>
+                    <div class="publications__text__box">
+                        <div class="publication__under__title__and__data">
+                            <a class="publications__under__title__link" href="#">Заповіт міленіала</a>
+                            <p class="publications__data__text">19 серпня</p>
+                        </div>
+                        <div class="publications__border__bottom"></div>
+                        <p class="publications__description">Що і як передаватимуть у спадщину сучасні влогери, опініон
+                            лідери і криптомільйонери Типовий спадок українського покоління…
+                        </p>
+                    </div>
+                </div>
+                <div class="publications__card publications__card5">
+                    <picture>
+                        <source srcset="images/homepage/publications/language.png">
+                        <img class="publications__img" src="images/homepage/publications/language.png" alt="foto">
+                    </picture>
+                    <div class="publications__text__box publications__box__under__shadow">
+                        <div class="publication__under__title__and__data">
+                            <a class="publications__under__title__link" href="#">Закон про мови: як зробити свій сайт
+                                відповідним</a>
+                            <p class="publications__data__text">19 серпня</p>
+                        </div>
+                        <div class="publications__border__bottom"></div>
+                        <p class="publications__description">Наталія Кирик, керівник контент студії Wordfactory.ua
+                            По-перше, це красиво! Це аргумент номер один на користь україномовного сайту. По-друге, це
+                            ефективно. У…
+                        </p>
+                    </div>
+                </div>
+                <div class="publications__card publications__card6">
+                    <picture>
+                        <source srcset="images/homepage/publications/compensation.png">
+                        <img class="publications__img" src="images/homepage/publications/compensation.png" alt="foto">
+                    </picture>
+                    <div class="publications__text__box publications__box__under__shadow">
+                        <div class="publication__under__title__and__data">
+                            <a class="publications__under__title__link" href="#">Компенсація витрат на навчання дитини в
+                                дитячому
+                                садку та
+                                школі</a>
+                            <p class="publications__data__text">5 Лютого 2018</p>
+                        </div>
+                        <div class="publications__border__bottom"></div>
+                        <p class="publications__description">Про що йде мова В червні цього року Верховна Рада внесла
+                            зміни до Податкового кодексу України. Відтепер батьки, які отримують офіційну…
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="shadow3__section">
+    <a class="shadow3__section__bottom" href="#">Ще публікації</a>
+</section>
+<footer class="footer__section footer">
+    <div class="base__container">
+        <div class="footer__separator"></div>
+        <div class="footer__contacts__wrapper">
+            <div class="footer__contacts">
+                <div class="footer__address">
+                    <p class="footer__address__text">Одеса, Адміральський пр., 3</p>
+                    <img class="footer__dot" src="images/homepage/footer-dot-separator.svg" alt="dot">
+                    <a class="footer__address__link" href="#">Подивитися на мапі</a>
+                </div>
+                <div class="footer__contacts__tel">
+                    <a class="footer__facebook" href="https://uk-ua.facebook.com/">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_26339_3485)">
+                                <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_26339_3485">
+                                    <rect width="24" height="24" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <img class="footer__dot" src="images/homepage/footer-dot-separator.svg" alt="dot">
+                    <a class="footer__tel__link" href="tel: +380503901591">+38 (050) 390 15 91</a>
+                    <img class="footer__dot" src="images/homepage/footer-dot-separator.svg" alt="dot">
+                    <a class="footer__mail__link" href="mailto:contact@hlegals.net">contact@hlegals.net</a>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p class="footer__copy__text">© 2021 ТОВ Юридична компанія «HLEGALS»</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="jquery.js"></script>
+<script src="./slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.slider').slick({
+            prevArrow: $('.prev-btn'),
+            nextArrow: $('.next-btn'),
+            autoplay: true,
+            dots: true,
+            autoplaySpeed: 4000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.experience__slider__mob').slick({
+            prevArrow: $('.prev-btn'),
+            nextArrow: $('.next-btn'),
+            autoplay: true,
+            dots: true,
+            autoplaySpeed: 4000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>
 </body>
 </html>
