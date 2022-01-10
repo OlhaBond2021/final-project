@@ -176,9 +176,6 @@ a {
   font-size: 18px;
   line-height: 21px;
 }
-.header__link:hover {
-  color: #F0145A;
-}
 .header__facebook svg {
   fill: #FFFFFF;
 }

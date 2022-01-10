@@ -34,6 +34,21 @@
 
   .header {
     margin-bottom: 63px;
+
+    &__link:hover, &__link__active {
+      border-bottom: 2px solid #ffffff;
+    }
+
+    .header__hamburger {
+      border: 1px solid #ffffff;
+      background-color: #ffffff;
+
+      &::before, &::after {
+        content: '';
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+      }
+    }
   }
 
   .splash {

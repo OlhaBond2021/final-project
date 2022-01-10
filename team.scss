@@ -30,13 +30,9 @@
       color: #24A3FF;
     }
 
-    &__link:hover {
+    &__link:hover, &__link__active {
       color: #F0145A;
       border-bottom: 2px solid #F0145A;
-    }
-
-    &__link__active {
-      color: #F0145A;
     }
 
     &__facebook {
