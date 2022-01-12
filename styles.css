@@ -995,7 +995,7 @@ a {
   max-height: 200px;
   margin-top: -200px;
 }
-.shadow3__section__bottom {
+.shadow3__section__button {
   position: relative;
   left: 50%;
   top: 50%;
@@ -1005,10 +1005,10 @@ a {
   border-radius: 12px;
   padding: 16px 70px;
 }
-.shadow3__section__bottom:hover {
+.shadow3__section__button:hover {
   background: #0085FF;
 }
-.shadow3__section__bottom:active {
+.shadow3__section__button:active {
   background: #006CCF;
 }
 
