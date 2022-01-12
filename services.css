@@ -614,6 +614,10 @@ a {
   max-height: 120px;
 }
 
+.footer {
+  padding-top: 40px;
+}
+
 @media screen and (max-width: 426px) {
   .header__and__services__section .header {
     flex-direction: column-reverse;
