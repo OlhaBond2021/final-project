@@ -2,21 +2,6 @@
 @import "header.css";
 @import "footer.css";
 
-@mixin title() {
-  font-weight: bold;
-  font-size: 42px;
-  line-height: 50px;
-  background: linear-gradient(90deg, rgba(240, 20, 90, 1), rgba(239, 128, 128, 1));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #F0145A;
-}
-
-@mixin flex__column() {
-  display: flex;
-  flex-direction: column;
-}
-
 .header__section {
   padding-top: 50px;
 
