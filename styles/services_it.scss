@@ -396,10 +396,7 @@
     left: 50%;
     top: 50%;
     transform: translateX(-50%);
-    background: #24A3FF;
-    box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
-    border-radius: 12px;
-    padding: 16px 70px;
+    @include button__link();
 
     &:hover {
       background: #0085FF;
