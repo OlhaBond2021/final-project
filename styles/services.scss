@@ -2,31 +2,6 @@
 @import "header";
 @import "footer";
 
-@mixin border__white() {
-  border: 1px solid #FFFFFF;
-}
-
-@mixin flex__column__end() {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-@mixin title() {
-  font-weight: bold;
-  font-size: 42px;
-  line-height: 50px;
-  background: linear-gradient(90deg, rgba(240, 20, 90, 1), rgba(239, 128, 128, 1));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #F0145A;
-}
-
-@mixin flex__column() {
-  display: flex;
-  flex-direction: column;
-}
-
 .header__and__services__section {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 12px 12px;
