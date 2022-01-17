@@ -465,6 +465,43 @@ a {
 }
 
 @media screen and (max-width: 426px) {
+  .header__section {
+    padding-top: 20px;
+  }
+  .header__section .header {
+    margin-bottom: 0;
+    flex-direction: column-reverse;
+    gap: 20px;
+    position: relative;
+  }
+  .header__section .header__hamburger__box {
+    display: flex;
+  }
+  .header__section .header__logo__link {
+    max-width: 768px;
+    text-align: start;
+  }
+  .header__section .header__dot, .header__section .header__address, .header__section .header__facebook, .header__section .header__nav {
+    display: none;
+  }
+  .header__section .header__languages {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .header__section .header__language {
+    color: #B3B3BA;
+  }
+  .header__section .header__language:hover, .header__section .header__active {
+    color: #FFFFFF;
+  }
+  .header__section .header__telephone {
+    color: #B3B3BA;
+  }
+  .header__section .header__languages__and__contacts, .header__section .header__content {
+    max-width: 768px;
+  }
+
   .team__section {
     padding: 30px 0 40px;
   }
