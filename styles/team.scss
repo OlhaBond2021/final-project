@@ -100,6 +100,52 @@
 
 @media screen and (max-width: 426px) {
 
+  .header__section {
+    padding-top: 20px;
+
+    .header {
+      margin-bottom: 0;
+      flex-direction: column-reverse;
+      gap: 20px;
+      position: relative;
+
+      &__hamburger__box {
+        display: flex;
+      }
+
+      &__logo__link {
+        max-width: 768px;
+        text-align: start;
+      }
+
+      &__dot, &__address, &__facebook, &__nav {
+        display: none;
+      }
+
+      &__languages {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      &__language {
+        color: #B3B3BA;
+      }
+
+      &__language:hover, &__active {
+        color: #FFFFFF;
+      }
+
+      &__telephone {
+        color: #B3B3BA;
+      }
+
+      &__languages__and__contacts, &__content {
+        max-width: 768px;
+      }
+    }
+  }
+
   .team__section {
     padding: 30px 0 40px;
 
