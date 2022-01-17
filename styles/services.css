@@ -1,17 +1,17 @@
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Medium.woff");
+  src: url("../fonts/TTNorms/TTNorms-Medium.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Regular.woff");
+  src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Bold.woff");
+  src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
@@ -37,19 +37,19 @@ a {
 }
 
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Medium.woff");
+  src: url("../fonts/TTNorms/TTNorms-Medium.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Regular.woff");
+  src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Bold.woff");
+  src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
@@ -184,19 +184,19 @@ a {
 }
 
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Medium.woff");
+  src: url("../fonts/TTNorms/TTNorms-Medium.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Regular.woff");
+  src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Bold.woff");
+  src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
