@@ -27,6 +27,13 @@
   flex-direction: column;
 }
 
+@mixin button__link() {
+  background: #24A3FF;
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  padding: 16px 70px;
+}
+
 .header__and__splash__section {
   padding-top: 50px;
   background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
@@ -696,15 +703,12 @@
   max-height: 200px;
   margin-top: -200px;
 
-  &__bottom {
+  &__button {
     position: relative;
     left: 50%;
     top: 50%;
     transform: translateX(-50%);
-    background: #24A3FF;
-    box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
-    border-radius: 12px;
-    padding: 16px 70px;
+    @include button__link();
 
     &:hover {
       background: #0085FF;

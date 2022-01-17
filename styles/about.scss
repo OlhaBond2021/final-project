@@ -1,6 +1,6 @@
 @import "base";
-@import "header";
-@import "footer";
+@import "header.css";
+@import "footer.css";
 
 @mixin title() {
   font-weight: bold;

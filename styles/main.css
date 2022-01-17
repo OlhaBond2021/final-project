@@ -1,17 +1,17 @@
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Medium.woff");
+  src: url("../fonts/TTNorms/TTNorms-Medium.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Regular.woff");
+  src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Bold.woff");
+  src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
@@ -37,19 +37,19 @@ a {
 }
 
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Medium.woff");
+  src: url("../fonts/TTNorms/TTNorms-Medium.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Regular.woff");
+  src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Bold.woff");
+  src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
@@ -184,19 +184,19 @@ a {
 }
 
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Medium.woff");
+  src: url("../fonts/TTNorms/TTNorms-Medium.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Regular.woff");
+  src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  src: url("./fonts/TTNorms/TTNorms-Bold.woff");
+  src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
@@ -995,7 +995,7 @@ a {
   max-height: 200px;
   margin-top: -200px;
 }
-.shadow3__section__bottom {
+.shadow3__section__button {
   position: relative;
   left: 50%;
   top: 50%;
@@ -1005,10 +1005,10 @@ a {
   border-radius: 12px;
   padding: 16px 70px;
 }
-.shadow3__section__bottom:hover {
+.shadow3__section__button:hover {
   background: #0085FF;
 }
-.shadow3__section__bottom:active {
+.shadow3__section__button:active {
   background: #006CCF;
 }
 
@@ -1950,4 +1950,4 @@ a {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */
