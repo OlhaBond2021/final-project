@@ -3,18 +3,21 @@
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 * {
   box-sizing: border-box;
@@ -41,18 +44,21 @@ a {
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 * {
   box-sizing: border-box;
@@ -188,18 +194,21 @@ a {
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   src: url("../fonts/TTNorms/TTNorms-Regular.woff");
   font-family: "TTNorms";
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   src: url("../fonts/TTNorms/TTNorms-Bold.woff");
   font-family: "TTNorms";
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 * {
   box-sizing: border-box;
