@@ -525,8 +525,12 @@ a {
   max-width: 250px;
   background: #24A3FF;
   box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  padding: 16px 70px;
   color: #ffffff;
   margin: 0 auto;
+  min-width: 250px;
+  padding: 16px 50px;
 }
 .contact__section .contact__form .form__button:hover {
   background: #0085FF;
@@ -547,7 +551,7 @@ a {
   border: 2px solid #F0145A;
 }
 .contact__section .contact__map__wrapper {
-  background-image: url("../images/contact/contact-map.png");
+  background-image: url("../images/contact/contact-map.webp");
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
