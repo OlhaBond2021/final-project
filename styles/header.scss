@@ -10,6 +10,10 @@
     display: flex;
     justify-content: space-between;
 
+    div.dropdown {
+      display: none;
+    }
+
     .header__hamburger__box {
       display: none;
       flex-direction: column;
@@ -47,12 +51,18 @@
           bottom: 6px;
         }
       }
+
+      .header__cross {
+        display: none;
+
+      }
     }
 
     &__logo__link {
       width: 100%;
       max-width: 155px;
     }
+
   }
 
   &__content {

@@ -103,21 +103,7 @@
     flex-wrap: wrap;
     align-content: end;
 
-    &__hover {
-      display: none;
-      background: #EDEDF7;
-      width: 100%;
-      min-width: 1285px;
-      padding: 40px 200px;
-
-      &__text {
-        font-size: 18px;
-        line-height: 26px;
-        color: #000000;
-      }
-    }
-
-    &__all__items:hover + .case__hover {
+    &__all__items:hover {
       display: flex;
       background: #EDEDF7;
     }
