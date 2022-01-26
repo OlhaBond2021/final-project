@@ -90,6 +90,9 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.header__logo__wrapper div.dropdown {
+  display: none;
+}
 .header__logo__wrapper .header__hamburger__box {
   display: none;
   flex-direction: column;
@@ -122,6 +125,9 @@ a {
 }
 .header__logo__wrapper .header__hamburger__box .header__hamburger::after {
   bottom: 6px;
+}
+.header__logo__wrapper .header__hamburger__box .header__cross {
+  display: none;
 }
 .header__logo__wrapper__logo__link {
   width: 100%;
@@ -744,19 +750,7 @@ a {
   flex-wrap: wrap;
   align-content: end;
 }
-.case__section .case__hover {
-  display: none;
-  background: #EDEDF7;
-  width: 100%;
-  min-width: 1285px;
-  padding: 40px 200px;
-}
-.case__section .case__hover__text {
-  font-size: 18px;
-  line-height: 26px;
-  color: #000000;
-}
-.case__section .case__all__items:hover + .case__hover {
+.case__section .case__all__items:hover {
   display: flex;
   background: #EDEDF7;
 }
