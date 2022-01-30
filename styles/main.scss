@@ -622,100 +622,6 @@
   }
 }
 
-//
-//
-//
-//  .publications {
-//    display: flex;
-//    justify-content: space-between;
-//    flex-wrap: wrap;
-//    column-gap: 40px;
-//
-//    &__img {
-//      width: 100%;
-//      max-width: 400px;
-//    }
-//
-//    &__under__title__link {
-//      font-size: 18px;
-//      line-height: 21px;
-//      color: #24A3FF;
-//      margin-bottom: 10px;
-//    }
-//
-//    &__data__text {
-//      font-weight: bold;
-//      font-size: 12px;
-//      line-height: 14px;
-//      letter-spacing: 1px;
-//      text-transform: uppercase;
-//      color: #B3B3BA;
-//    }
-//
-//    &__border__bottom {
-//      border-bottom: 4px solid #E6E6F0;
-//    }
-//
-//    &__description {
-//      font-size: 16px;
-//      line-height: 22px;
-//      color: #000000;
-//      padding-right: 15px;
-//    }
-//
-//    &__card {
-//      width: 100%;
-//      max-width: 400px;
-//      @include flex__column;
-//      gap: 20px;
-//      background: #FFFFFF;
-//      border-radius: 8px;
-//    }
-//
-//    &__text__box {
-//      @include flex__column;
-//      gap: 20px;
-//      padding: 0 20px 20px;
-//    }
-//
-//    &__card1 {
-//      height: 100%;
-//      min-height: 265px;
-//      padding: 20px;
-//    }
-//
-//    &__card2 {
-//      height: 100%;
-//      min-height: 420px;
-//    }
-//
-//    &__card3 {
-//      height: 100%;
-//      min-height: 462px;
-//    }
-//
-//    &__card4 {
-//      height: 100%;
-//      min-height: 441px;
-//      margin-top: -160px;
-//    }
-//
-//    &__card5 {
-//      height: 100%;
-//      max-height: 250px;
-//      margin-top: -2px;
-//      overflow: hidden;
-//    }
-//
-//    &__card6 {
-//      height: 100%;
-//      max-height: 230px;
-//      margin-top: 40px;
-//      overflow: hidden;
-//    }
-//  }
-//}
-
 .shadow3__section {
   position: absolute;
   z-index: 2;
@@ -1048,8 +954,6 @@
 
     .publications {
       margin-bottom: 40px;
-      //margin: 0 auto;
-      //row-gap: 20px;
 
       &__img {
         max-width: 426px;
@@ -1058,14 +962,6 @@
       &__border__bottom, &__description, &__card3, &__card5, &__card6 {
         display: none;
       }
-
-      //&__card {
-      //  min-height: 0;
-      //}
-      //
-      //&__card4 {
-      //  margin-top: 0;
-      //}
     }
   }
 
