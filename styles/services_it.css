@@ -658,9 +658,13 @@ a {
 }
 .publications__section .publications {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  column-gap: 40px;
+  gap: 40px;
+}
+.publications__section .publications__columns {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .publications__section .publications__img {
   width: 100%;
@@ -672,7 +676,7 @@ a {
   color: #24A3FF;
   margin-bottom: 10px;
 }
-.publications__section .publications__data__text {
+.publications__section .publications__date__text {
   font-weight: bold;
   font-size: 12px;
   line-height: 14px;
@@ -705,34 +709,7 @@ a {
   padding: 0 20px 20px;
 }
 .publications__section .publications__card1 {
-  height: 100%;
-  min-height: 265px;
   padding: 20px;
-}
-.publications__section .publications__card2 {
-  height: 100%;
-  min-height: 420px;
-}
-.publications__section .publications__card3 {
-  height: 100%;
-  min-height: 462px;
-}
-.publications__section .publications__card4 {
-  height: 100%;
-  min-height: 441px;
-  margin-top: -180px;
-}
-.publications__section .publications__card5 {
-  height: 100%;
-  max-height: 250px;
-  margin-top: -2px;
-  overflow: hidden;
-}
-.publications__section .publications__card6 {
-  height: 100%;
-  max-height: 230px;
-  margin-top: 40px;
-  overflow: hidden;
 }
 
 .shadow3__section {
@@ -865,20 +842,13 @@ a {
     margin-bottom: 20px;
   }
   .publications__section .publications {
-    margin: 0 auto;
-    row-gap: 20px;
+    margin-bottom: 40px;
   }
   .publications__section .publications__img {
     max-width: 426px;
   }
   .publications__section .publications__border__bottom, .publications__section .publications__description, .publications__section .publications__card3, .publications__section .publications__card5, .publications__section .publications__card6 {
     display: none;
-  }
-  .publications__section .publications__card {
-    min-height: 0;
-  }
-  .publications__section .publications__card4 {
-    margin-top: 0;
   }
 
   .shadow3__section {
@@ -1016,7 +986,7 @@ a {
     margin-bottom: 20px;
   }
   .publications__section .publications {
-    row-gap: 20px;
+    margin-bottom: 40px;
     justify-content: center;
   }
   .publications__section .publications__img {
@@ -1024,18 +994,6 @@ a {
   }
   .publications__section .publications__border__bottom, .publications__section .publications__description {
     display: none;
-  }
-  .publications__section .publications__card {
-    max-width: 525px;
-    min-height: 0;
-    max-height: 500px;
-    margin-top: 0;
-  }
-  .publications__section .publications__card5 {
-    overflow: visible;
-  }
-  .publications__section .publications__card6 {
-    overflow: visible;
   }
 
   .shadow3__section {
@@ -1195,33 +1153,10 @@ a {
     margin-bottom: 20px;
   }
   .publications__section .publications {
-    row-gap: 20px;
     justify-content: center;
-  }
-  .publications__section .publications__img {
-    max-width: 335px;
   }
   .publications__section .publications__border__bottom, .publications__section .publications__description {
     display: none;
-  }
-  .publications__section .publications__card {
-    max-width: 335px;
-    min-height: auto;
-    max-height: 500px;
-  }
-  .publications__section .publications__card3 {
-    margin-top: -170px;
-  }
-  .publications__section .publications__card4 {
-    margin-top: 0;
-  }
-  .publications__section .publications__card5 {
-    overflow: visible;
-    margin-top: -125px;
-  }
-  .publications__section .publications__card6 {
-    overflow: visible;
-    margin-top: 0;
   }
 }
 @media screen and (min-width: 991px) and (max-width: 1370px) {
@@ -1260,75 +1195,10 @@ a {
     margin-bottom: 20px;
   }
   .publications__section .publications {
-    row-gap: 20px;
     justify-content: center;
-  }
-  .publications__section .publications__img {
-    max-width: 335px;
-  }
-  .publications__section .publications__border__bottom, .publications__section .publications__description {
-    display: none;
-  }
-  .publications__section .publications__card {
-    max-width: 335px;
-    min-height: auto;
-    max-height: 500px;
-  }
-  .publications__section .publications__card3 {
-    margin-top: -170px;
-  }
-  .publications__section .publications__card4 {
-    margin-top: 0;
-  }
-  .publications__section .publications__card5 {
-    overflow: visible;
-    margin-top: -125px;
-  }
-  .publications__section .publications__card6 {
-    overflow: visible;
-    margin-top: 0;
-  }
-}
-@media screen and (min-width: 1115px) and (max-width: 1370px) {
-  .publications__section {
-    padding-top: 20px;
-    margin: 0 auto;
-  }
-  .publications__section .publications__title {
-    font-size: 32px;
-    line-height: 38px;
-    margin-bottom: 20px;
-  }
-  .publications__section .publications {
-    row-gap: 20px;
-    justify-content: center;
-  }
-  .publications__section .publications__img {
-    max-width: 335px;
   }
   .publications__section .publications__border__bottom, .publications__section .publications__description {
     display: block;
-  }
-  .publications__section .publications__card {
-    max-width: 335px;
-    min-height: auto;
-    max-height: 500px;
-  }
-  .publications__section .publications__card3 {
-    margin-top: 0;
-  }
-  .publications__section .publications__card4 {
-    margin-top: -165px;
-  }
-  .publications__section .publications__card5 {
-    overflow: hidden;
-    margin-top: -40px;
-    max-height: 260px;
-  }
-  .publications__section .publications__card6 {
-    overflow: hidden;
-    margin-top: 0;
-    max-height: 260px;
   }
 }
 
