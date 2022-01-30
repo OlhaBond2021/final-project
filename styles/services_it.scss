@@ -277,9 +277,14 @@
 
   .publications {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 40px;
+    gap: 40px;
+
+    &__columns {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
 
     &__img {
       width: 100%;
@@ -293,7 +298,7 @@
       margin-bottom: 10px;
     }
 
-    &__data__text {
+    &__date__text {
       font-weight: bold;
       font-size: 12px;
       line-height: 14px;
@@ -329,39 +334,7 @@
     }
 
     &__card1 {
-      height: 100%;
-      min-height: 265px;
       padding: 20px;
-    }
-
-    &__card2 {
-      height: 100%;
-      min-height: 420px;
-    }
-
-    &__card3 {
-      height: 100%;
-      min-height: 462px;
-    }
-
-    &__card4 {
-      height: 100%;
-      min-height: 441px;
-      margin-top: -180px;
-    }
-
-    &__card5 {
-      height: 100%;
-      max-height: 250px;
-      margin-top: -2px;
-      overflow: hidden;
-    }
-
-    &__card6 {
-      height: 100%;
-      max-height: 230px;
-      margin-top: 40px;
-      overflow: hidden;
     }
   }
 }
@@ -535,8 +508,7 @@
     }
 
     .publications {
-      margin: 0 auto;
-      row-gap: 20px;
+      margin-bottom: 40px;
 
       &__img {
         max-width: 426px;
@@ -544,14 +516,6 @@
 
       &__border__bottom, &__description, &__card3, &__card5, &__card6 {
         display: none;
-      }
-
-      &__card {
-        min-height: 0;
-      }
-
-      &__card4 {
-        margin-top: 0;
       }
     }
   }
@@ -733,7 +697,7 @@
     }
 
     .publications {
-      row-gap: 20px;
+      margin-bottom: 40px;
       justify-content: center;
 
       &__img {
@@ -742,21 +706,6 @@
 
       &__border__bottom, &__description {
         display: none;
-      }
-
-      &__card {
-        max-width: 525px;
-        min-height: 0;
-        max-height: 500px;
-        margin-top: 0;
-      }
-
-      &__card5 {
-        overflow: visible;
-      }
-
-      &__card6 {
-        overflow: visible;
       }
     }
   }
@@ -978,39 +927,10 @@
     }
 
     .publications {
-      row-gap: 20px;
       justify-content: center;
-
-      &__img {
-        max-width: 335px;
-      }
 
       &__border__bottom, &__description {
         display: none;
-      }
-
-      &__card {
-        max-width: 335px;
-        min-height: auto;
-        max-height: 500px;
-      }
-
-      &__card3 {
-        margin-top: -170px;
-      }
-
-      &__card4 {
-        margin-top: 0;
-      }
-
-      &__card5 {
-        overflow: visible;
-        margin-top: -125px;
-      }
-
-      &__card6 {
-        overflow: visible;
-        margin-top: 0;
       }
     }
   }
@@ -1062,97 +982,16 @@
     }
 
     .publications {
-      row-gap: 20px;
       justify-content: center;
-
-      &__img {
-        max-width: 335px;
-      }
-
-      &__border__bottom, &__description {
-        display: none;
-      }
-
-      &__card {
-        max-width: 335px;
-        min-height: auto;
-        max-height: 500px;
-      }
-
-      &__card3 {
-        margin-top: -170px;
-      }
-
-      &__card4 {
-        margin-top: 0;
-      }
-
-      &__card5 {
-        overflow: visible;
-        margin-top: -125px;
-      }
-
-      &__card6 {
-        overflow: visible;
-        margin-top: 0;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1115px) and (max-width: 1370px) {
-
-  .publications__section {
-    padding-top: 20px;
-    margin: 0 auto;
-
-    .publications__title {
-      font-size: 32px;
-      line-height: 38px;
-      margin-bottom: 20px;
-    }
-
-    .publications {
-      row-gap: 20px;
-      justify-content: center;
-
-      &__img {
-        max-width: 335px;
-      }
 
       &__border__bottom, &__description {
         display: block;
       }
-
-      &__card {
-        max-width: 335px;
-        min-height: auto;
-        max-height: 500px;
-      }
-
-      &__card3 {
-        margin-top: 0;
-      }
-
-      &__card4 {
-        margin-top: -165px;
-      }
-
-      &__card5 {
-        overflow: hidden;
-        margin-top: -40px;
-        max-height: 260px;
-      }
-
-      &__card6 {
-        overflow: hidden;
-        margin-top: 0;
-        max-height: 260px;
-      }
     }
   }
-
 }
+
+
 
 
 
